@@ -10,4 +10,9 @@
 # ❔ What is this? 
 ### Angellabs is a place for all your stuff! You can link your social profiles, groups, and websites! You can use this website as a template to make a website suited for your needs. 
 ###### Leaving the credits at the bottom of the page is greatly appreciated :)
-## Credits for 404 page: [@BlobbyDev](https://github.com/BlobbyDev/MyWebsiteLol)
+
+
+## Credits
+
+* **4ngel2769** - *Website Design* - [github](https://github.com/4ngel2769)
+* **BlobbyDev** - *404 page* - [github](https://github.com/BlobbyDev)
