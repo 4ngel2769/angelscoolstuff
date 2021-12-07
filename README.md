@@ -9,7 +9,7 @@
 
 # ❔ What is this? 
 ### Angellabs is a place for all your stuff! You can link your social profiles, groups, and websites! You can use this website as a template to make a website suited for your needs. 
-###### Leaving the credits at the bottom of the page is greatly appreciated :)
+###### Leaving the credits at the bottom of the page or linking this repo would be greatly appreciated :)
 
 
 ## Credits
