@@ -108,7 +108,7 @@ footer{
     word-wrap: break-word;
     text-align: center;
     width: 20em;
-    background: linear-gradient(-45deg, #192447, #330b1a, #0c2c38, #103a30);
+    background: linear-gradient(-45deg, #486de6, #c22961, #289ec9, #39cfac);
     background-size: 400% 400%;
     box-shadow: var(--normal-shadow);
     animation: gradient 5s ease infinite reverse;
