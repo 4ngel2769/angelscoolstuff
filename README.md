@@ -14,5 +14,5 @@
 
 ## Credits
 
-* **BlobbyDev** - *404 page* - [github](https://github.com/BlobbyDev)
+* **BlobbyDev** - *Initial 404 page* - [github](https://github.com/BlobbyDev)
 * **4ngel2769** - *Website Design & Everything else* - [github](https://github.com/4ngel2769)
