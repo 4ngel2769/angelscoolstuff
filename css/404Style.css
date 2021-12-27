@@ -26,9 +26,6 @@ body {
     animation: gradient 10s ease infinite;
 }
 
-*{
-    cursor: none;
-}
 
 .msg {
     font-size: 100px;
