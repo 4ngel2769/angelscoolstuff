@@ -1,7 +1,7 @@
 # angelscoolstuff
 <h1 align="center">
   <br>
-  <a href="https://angellabs.gq"><img src="https://i.imgur.com/aFIMzUb.png"></a>
+  <a href="https://angellabs.xyz"><img src="https://i.imgur.com/aFIMzUb.png"></a>
   <br>
   Angel Labs ⚗️
   <br>
@@ -13,6 +13,6 @@
 
 
 ## Credits
- 
+
 * **BlobbyDev** - *404 page* - [github](https://github.com/BlobbyDev)
 * **4ngel2769** - *Website Design & Everything else* - [github](https://github.com/4ngel2769)
