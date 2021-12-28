@@ -40,13 +40,27 @@ body {
     
 }
 
+.msg2 {
+    font-size: 45px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-weight: light;
+    font-family: 'Concert One', Courier;
+    color: white;
+    text-shadow: var(--normal-shadow);
+    
+}
+
+
 .back {
     text-align: center;
     margin-top: 20px;
     padding: 20px;
     border: 1px solid white;
     border-width: 5px;
-    border-radius: 12px;
+    border-radius: 6px;
     width: 300px;
     font-size: 20px;
     display: block;
