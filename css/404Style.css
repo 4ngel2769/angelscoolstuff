@@ -34,7 +34,7 @@ body {
     margin-right: auto;
     margin-top: 200px;
     font-weight: light;
-    font-family: 'Roboto', 'Concert One', monospace, 'Courier New', Courier, monospace;
+    font-family: 'Concert One', Courier;
     color: white;
     text-shadow: var(--normal-shadow);
     
