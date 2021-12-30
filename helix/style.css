@@ -114,12 +114,14 @@ a:hover, button:hover {
 }
 
 .s-m-section {
-  background: linear-gradient(90deg, #4b55ec, #ffffff, #fcb150);
+  background: linear-gradient(90deg, #4b55ec, #3d3f4d, #fcb150);
   padding: 20px;
 }
 
 
 .s-m-title {
+  color: white;
+  text-decoration-line:underline;
   margin: 20px;
 }
 
@@ -184,6 +186,9 @@ a:hover, button:hover {
   border: 10px;
   border-radius: 20px;
   color: white;
+}
+.moderation-card {
+  color:white;
 }
 
 .new-cards{
