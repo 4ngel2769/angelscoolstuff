@@ -156,6 +156,15 @@ a:hover, button:hover {
   box-shadow: var(--text-shadow);
 }
 
+.ft-card {
+  padding: 60px;
+  border-radius: 10px;
+  background: rgb(39, 42, 49);
+  color: #e7e7e7;
+  margin: 15px;
+  box-shadow: var(--text-shadow);
+}
+
 .statics-section2 {
   box-shadow: var(--text-shadow);
   background-image: url("./img/header-bg.png");
