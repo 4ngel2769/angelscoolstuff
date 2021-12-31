@@ -45,10 +45,11 @@
   src: url('../fonts/glyphicons/flat-ui-icons-regular.eot');
   src: url('../fonts/glyphicons/flat-ui-icons-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons/flat-ui-icons-regular.woff') format('woff'), url('../fonts/glyphicons/flat-ui-icons-regular.ttf') format('truetype'), url('../fonts/glyphicons/flat-ui-icons-regular.svg#flat-ui-icons-regular') format('svg');
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 [class^="fui-"],
 [class*="fui-"] {
   font-family: 'Flat-UI-Icons';
-  speak: none;
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -56,6 +57,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+:root {
+  --font: 'Roboto Mono', monospace;
+  --background: rgb(95, 123, 247);
+  --color: #232333;
+  --normal-shadow: 0px 100px 80px rgba(0, 0, 0, 0.13),
+  0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0934511),
+  0px 22.3363px 17.869px rgba(0, 0, 0, 0.0774939),
+  0px 12.5216px 10.0172px rgba(0, 0, 0, 0.065),
+  0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0525061),
+  0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0365489);
+--text-shadow: 0px 100px 145px rgba(0, 0, 0, 0.25),
+  0px 41.7776px 60.5775px rgba(0, 0, 0, 0.179714),
+  0px 22.3363px 32.3876px rgba(0, 0, 0, 0.149027),
+  0px 12.5216px 18.1562px rgba(0, 0, 0, 0.125),
+  0px 6.6501px 9.64265px rgba(0, 0, 0, 0.100973),
+  0px 2.76726px 4.01252px rgba(0, 0, 0, 0.0702864);
+}
+
 .fui-triangle-up:before {
   content: "\e600";
 }
@@ -347,6 +367,28 @@
 .fui-apple:before {
   content: "\e660";
 }
+
+body{
+  background-color: var(--background);
+  color: var(--color);
+  font-family: var(--font);
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background: linear-gradient(-45deg, #7472f5, #382be9, #27b6eb, #3dc5ee);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+/*
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -354,6 +396,7 @@ body {
   color: #34495e;
   background-color: #ffffff;
 }
+*/
 a {
   color: #16a085;
   text-decoration: none;
@@ -2003,7 +2046,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 .checkbox .icon-unchecked:before,
 .radio .icon-unchecked:before {
   font-family: 'Flat-UI-Icons';
-  speak: none;
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -5220,7 +5263,8 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   right: 0;
   width: 100% !important;
   height: 100% !important;
-  border-top-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 .vjs-fullscreen .vjs-control-bar {
   margin-top: 0;
@@ -5237,7 +5281,8 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   position: relative;
   width: 100%;
   max-height: 100%;
-  border-top-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 .vjs-control-bar {
   position: relative;
