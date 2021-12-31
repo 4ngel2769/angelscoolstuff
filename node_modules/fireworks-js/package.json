@@ -1,0 +1,61 @@
+{
+  "name": "fireworks-js",
+  "version": "1.3.5",
+  "description": "A simple fireworks library!",
+  "main": "./dist/fireworks.js",
+  "types": "./dist/fireworks.d.ts",
+  "files": [
+    "dist/react.js",
+    "dist/react.d.ts",
+    "dist/fireworks.js",
+    "dist/fireworks.d.ts"
+  ],
+  "scripts": {
+    "dev": "webpack server --config webpack/webpack.dev.js",
+    "build": "webpack --progress --config webpack/webpack.prod.js",
+    "lint": "eslint --ext ts src",
+    "lint:fix": "eslint --fix --ext ts src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crashmax-dev/fireworks-js.git"
+  },
+  "keywords": [
+    "canvas",
+    "fireworks",
+    "animation"
+  ],
+  "author": {
+    "name": "Vitalij Ryndin",
+    "email": "sys@crashmax.ru",
+    "url": "https://crashmax.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crashmax-dev/fireworks-js/issues"
+  },
+  "homepage": "https://fireworks.js.org",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@crashmax/eslint-config": "^1.0.0",
+    "@types/copy-webpack-plugin": "^8.0.1",
+    "@types/react": "^17.0.27",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.3.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "terser-webpack-plugin": "^5.2.4",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "peerDependencies": {
+    "@types/react": ">=16.8.0",
+    "react": ">=16.8.0"
+  }
+}

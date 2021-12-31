@@ -120,6 +120,19 @@ footer{
   font-family: 'VT323', monospace;
 }
 
+
+
+#userBg{
+  width: 126px;
+  height: 126px;
+  display: block;
+  margin: 35px auto 40px;
+  border-radius: 30%;
+  border: var(--color) 2px;
+  box-shadow: var(--normal-shadow);
+  border-color: rgb(166, 182, 255);
+}
+
 #userPhoto{
   width: 96px;
   height: 96px;
