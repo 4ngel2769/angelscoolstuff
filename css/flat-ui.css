@@ -45,7 +45,17 @@
   src: url('../fonts/glyphicons/flat-ui-icons-regular.eot');
   src: url('../fonts/glyphicons/flat-ui-icons-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons/flat-ui-icons-regular.woff') format('woff'), url('../fonts/glyphicons/flat-ui-icons-regular.ttf') format('truetype'), url('../fonts/glyphicons/flat-ui-icons-regular.svg#flat-ui-icons-regular') format('svg');
 }
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
 [class^="fui-"],
 [class*="fui-"] {
   font-family: 'Flat-UI-Icons';
@@ -75,6 +85,129 @@
   0px 6.6501px 9.64265px rgba(0, 0, 0, 0.100973),
   0px 2.76726px 4.01252px rgba(0, 0, 0, 0.0702864);
 }
+
+
+
+.container {
+  flex: 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  flex: 1 auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+footer{
+  text-align: center;
+  font-size: 0.5rem;
+  size:1rem;
+  font-family: 'VT323', monospace;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.moderator-footer {
+  font-size: large;
+  color:white;
+  font-family: 'VT323', monospace;
+}
+
+#userPhoto{
+  width: 96px;
+  height: 96px;
+  display: block;
+  margin: 35px auto 40px;
+  border-radius: 30%;
+  border: var(--color) 2px;
+  box-shadow: var(--normal-shadow);
+  border-color:rgb(166, 182, 255);
+}
+
+#userName{
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.25;
+  display: block;
+  color: var(--color);
+  text-shadow: var(--text-shadow);
+}
+
+#links{
+  align-items: center;
+  width: auto;
+  display: block;
+  margin: 27px auto;
+  gap: 3em;
+}
+
+.link{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  font-family: 'VT323', monospace;
+  border: solid rgb(184, 188, 209) 2px;
+  text-align: center;
+  text-decoration: none;  
+  color: var(--color);  
+  word-wrap: break-word;
+  text-align: center;
+  width: 20em;
+  background: linear-gradient(-45deg, #486de6, #c22961, #289ec9, #39cfac);
+  background-size: 400% 400%;
+  box-shadow: var(--normal-shadow);
+  animation: gradient 5s ease infinite reverse;
+  transition: 0.5s;
+
+}
+
+.links:hover {
+ transform: scale(1.1);
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+  :root {        
+      --background: #16171d;
+      --color: white;
+  }
+}
+@media screen and (max-width: 700px) {
+  .links {
+    width: 10em;
+  }
+  #links {
+    gap: 2.5em;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
 
 .fui-triangle-up:before {
   content: "\e600";
@@ -5955,63 +6088,63 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
     background-image: url(../img/login/imac-2x.png);
   }
 }
-footer {
+z-footer {
   background-color: #edeff1;
   color: #bac1c8;
   font-size: 15px;
   padding: 0;
 }
-footer a {
+z-footer a {
   color: #9aa4af;
   font-weight: 700;
 }
-footer p {
+z-footer p {
   font-size: 15px;
   line-height: 20px;
   margin-bottom: 10px;
 }
-.footer-title {
+.z-footer-title {
   margin: 0 0 22px;
   padding-top: 21px;
   font-size: 24px;
   line-height: 40px;
 }
-.footer-brand {
+.z-footer-brand {
   display: block;
   margin-bottom: 26px;
   width: 220px;
 }
-.footer-brand img {
+.z-footer-brand img {
   width: 216px;
 }
-.footer-banner {
+.z-footer-banner {
   background-color: #1abc9c;
   color: #d1f2eb;
   margin-left: 42px;
   min-height: 316px;
   padding: 0 30px 30px;
 }
-.footer-banner .footer-title {
+.z-footer-banner .footer-title {
   color: #ffffff;
 }
-.footer-banner a {
+.z-footer-banner a {
   color: #b7f5e9;
   text-decoration: underline;
 }
-.footer-banner a:hover {
+.z-footer-banner a:hover {
   text-decoration: none;
 }
-.footer-banner ul {
+.z-footer-banner ul {
   list-style-type: none;
   margin: 0 0 26px;
   padding: 0;
 }
-.footer-banner ul li {
+.z-footer-banner ul li {
   border-top: 1px solid #1bc5a3;
   line-height: 19px;
   padding: 6px 0;
 }
-.footer-banner ul li:first-child {
+.z-footer-banner ul li:first-child {
   border-top: none;
   padding-top: 1px;
 }
