@@ -20,6 +20,16 @@ body {
     0px 2.76726px 4.01252px rgba(0, 0, 0, 0.0702864);
 }
 
+::-moz-selection {
+    color: rgb(29, 31, 32);
+    background: rgb(228, 228, 228);
+}
+
+::selection {
+    color: rgb(29, 31, 32);
+    background: rgb(228, 228, 228);
+}
+
 body {
     background: linear-gradient(-45deg, #4c4cfa, #5f5fff, #747eff, #5d52fc);
     background-size: 500% 500%;
