@@ -5237,7 +5237,8 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   overflow: hidden;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  border-top-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   width: 100% !important;
   height: auto !important;
 }
