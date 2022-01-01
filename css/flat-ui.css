@@ -213,7 +213,6 @@ body{
 
 canvas{
   display:block;
-  vertical-align: bottom;
 }
 
 
@@ -607,7 +606,7 @@ body{
 }
 
 body {
-  background: linear-gradient(-45deg, #7472f5, #382be9, #27b6eb, #3dc5ee);
+  background: linear-gradient(-45deg, #7472f5, #382be9, #27b6eb, #1f5ed3);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
 }
