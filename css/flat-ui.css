@@ -104,19 +104,6 @@ li{list-style:none}
   0px 6.6501px 9.64265px rgba(0, 0, 0, 0.100973),
   0px 2.76726px 4.01252px rgba(0, 0, 0, 0.0702864);
 }
-html{
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-body{
-  font:normal 75% Arial, Helvetica, sans-serif;
-}
-
-canvas{
-  display:block;
-  vertical-align: bottom;
-}
-
 
 
 .container {
@@ -215,6 +202,20 @@ footer{
   transition: 0.5s;
 
 }
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  display:block;
+  vertical-align: bottom;
+}
+
 
 .links:hover {
  transform: scale(1.1);
