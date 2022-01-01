@@ -62,7 +62,6 @@ canvas{
   font-weight: bold;
 }
 
-}
 .js-count-particles {
   font-size: 1.1em;
 
@@ -74,7 +73,6 @@ canvas{
   margin-left: 5px;
 }
 
-}
 #stats {
   border-radius: 3px 3px 0 0;
   overflow: hidden;
