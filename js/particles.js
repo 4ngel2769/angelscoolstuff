@@ -102,7 +102,7 @@ var pJS = function(tag_id, params){
       },
       modes: {
         grab:{
-          distance: 100,
+          distance: 250,
           line_linked:{
             opacity: 1
           }
