@@ -158,6 +158,10 @@ footer{
   border-color: rgb(166, 182, 255);
 }
 
+.UBG{
+  padding-top: 50px;
+}
+
 #userPhoto{
   z-index: 0;
   width: 96px;
@@ -197,6 +201,29 @@ footer{
   display: block;
   margin: 27px auto;
   gap: 3em;
+}
+
+.contentz {
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.055);
+  border-radius: 20px;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.22),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.158148),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.131144),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.11),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0888564),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.061852);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 2em 4em;
+  position: fixed;
+  text-align: center;
+  top: 45%;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
 }
 
 .link{
@@ -257,7 +284,7 @@ canvas{
 /* ---- particles.js container ---- */
 
 #particles-js {
-  z-index: -1;
+  z-index: 0;
   position: fixed;
   width: 100%;
   height: 100%;
