@@ -125,11 +125,11 @@ li{list-style:none}
 
 footer{
   text-align: center;
-  font-size: 0.5rem;
+  font-size: 1rem;
   size:1rem;
   font-family: 'VT323', monospace;
   font-weight: 400;
-  padding-bottom: 20px;
+  padding-bottom: 2px;
 }
 
 .moderator-footer {
@@ -154,7 +154,7 @@ footer{
   width: 96px;
   height: 96px;
   display: block;
-  margin: 35px auto 40px;
+  margin: -35px auto 40px;
   border-radius: 30%;
   border: var(--color) 2px;
   box-shadow: var(--normal-shadow);
@@ -194,26 +194,30 @@ footer{
   display: block;
   margin-bottom: 20px;
   padding: 10px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   border-radius: 10px;
   font-family: 'VT323', monospace;
-  border: solid rgb(184, 188, 209) 2px;
+  /*border: solid rgb(184, 188, 209) 2px;*/
   text-align: center;
   text-decoration: none;  
-  color: var(--color);  
+  color: #ffffff;  
   word-wrap: break-word;
   text-align: center;
-  width: 20em;
-  background: linear-gradient(-45deg, #486de6, #c22961, #289ec9, #39cfac);
+  width: 17em;
+  background: linear-gradient(-45deg, #486de6, #289ec9, #27badf);
   background-size: 400% 400%;
   box-shadow: var(--normal-shadow);
-  animation: gradient 5s ease infinite reverse;
-  transition: transform .2s;
+  /*animation: gradient 5s ease infinite reverse;
+  transition: transform .2s;*/
 }
 
 .link:hover{
   transform: scale(1.03);
+  /*border: solid #00bdef;*/
+  color:black;
+  font-weight: bolder;
+  background: linear-gradient(-45deg, #ff6464, #f5115d);
 }
 
 html{
@@ -256,8 +260,10 @@ canvas{
 }
 
 @keyframes userNameSpin {
-  0% { transform: rotate( 0.0deg) }
-  100% { transform: rotate( -10080.0deg) }
+  0% { transform: rotate() }
+  15% { transform: rotate( 0deg) }
+  93% { transform: rotate( -10080.0deg) }
+  100% { transform: rotate() }
 }
 
 @keyframes wave-animation {
