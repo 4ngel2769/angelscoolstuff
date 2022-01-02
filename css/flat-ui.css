@@ -257,7 +257,7 @@ canvas{
 
 @keyframes userNameSpin {
   0% { transform: rotate( 0.0deg) }
-  100% { transform: rotate( -10000.0deg) }
+  100% { transform: rotate( -10080.0deg) }
 }
 
 @keyframes wave-animation {
