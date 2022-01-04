@@ -110,7 +110,7 @@ var pJS = function(tag_id, params){
         },
         bubble:{
           distance: 200,
-          size: 80,
+          size: 8,
           duration: 0.4
         },
         repulse:{

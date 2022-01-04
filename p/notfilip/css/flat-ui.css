@@ -106,6 +106,36 @@ hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padd
 input,select{vertical-align:middle}
 li{list-style:none}
 
+
+body{
+  background-color: var(--background);
+  background-image: url('https://i.pinimg.com/originals/4d/fc/0f/4dfc0f3658375dfd50cf9420e0608145.jpg'); /*linear-gradient(-45deg, #0f0f16, #0c0931, #101318, #07152e);*/
+  background-size: 100% 100%;
+  /*animation: gradient 10s ease infinite;*/
+  color: var(--color);
+  font-family: var(--font);
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.72222;
+  color: #34495e;
+  background-color: #ffffff;
+}
+*/
+
+
 .container {
   flex: 1 auto;
   display: flex;
@@ -164,11 +194,11 @@ footer{
 
 #userPhoto{
   z-index: 0;
-  width: 96px;
-  height: 96px;
+  width: 100px;
+  height: 100px;
   display: block;
   margin: -35px auto 40px;
-  border-radius: 30%;
+  border-radius: 50%;
   border: var(--color) 2px;
   box-shadow: var(--normal-shadow);
   border-color:rgb(166, 182, 255);
@@ -205,7 +235,7 @@ footer{
 
 .contentz {
   z-index: 2;
-  background-color: rgba(255, 255, 255, 0.055);
+  background:linear-gradient(rgba(255, 91, 91, 0.993), #c9c9c9, #e4e4e4);
   border-radius: 20px;
   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.22),
     0px 41.7776px 33.4221px rgba(0, 0, 0, 0.158148),
@@ -241,7 +271,7 @@ footer{
   word-wrap: break-word;
   text-align: center;
   width: 17em;
-  background: linear-gradient(-45deg, #486de6, #289ec9, #27badf);
+  background: #ff7b7bd3;
   background-size: 400% 400%;
   box-shadow: var(--normal-shadow);
   /*animation: gradient 5s ease infinite reverse;
@@ -251,18 +281,17 @@ footer{
 .link:hover{
   transform: scale(1.03);
   /*border: solid #00bdef;*/
-  color:black;
+  color:rgb(197, 197, 197);
   font-weight: bolder;
-  background: linear-gradient(-45deg, #ff6464, #f5115d);
+  background: linear-gradient(#212325, #222327);
 }
 
 .social-links{
-  background: transparent;
+  background: #ff7b7bd3;
   box-sizing: border-box;
-  padding: 0em;
+  padding: 0.3em;
   border-radius: 10px;
-  /*box-shadow: var(--normal-shadow);*/
-  
+  box-shadow: var(--normal-shadow);
 }
 
 .social-icon-insta{
@@ -710,35 +739,7 @@ canvas{
   content: "\e660";
 }
 
-body{
-  background-color: var(--background);
-  color: var(--color);
-  font-family: var(--font);
-  margin: 0;
-  padding: 0;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  display: flex;
-  min-height: 100vh;
-  min-width: 100vw;
-  flex-direction: column;
-  align-items: center;
-}
 
-body {
-  background: linear-gradient(-45deg, #7472f5, #382be9, #27b6eb, #1f5ed3);
-  background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
-}
-/*
-body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.72222;
-  color: #34495e;
-  background-color: #ffffff;
-}
-*/
 a {
   color: #16a085;
   text-decoration: none;
