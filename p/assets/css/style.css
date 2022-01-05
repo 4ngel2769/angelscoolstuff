@@ -1,0 +1,40 @@
+/* Style Settings */
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+:root {
+    --font: 'Karla', 'Karla', sans-serif;
+}
+
+body {
+    background-color: rgb(243, 242, 242);
+}
+
+.circulo {
+    background: rgb(221, 221, 221);
+    border-radius: 52px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(32, 32, 32);
+}
+
+.circulo:hover {
+    background: rgb(66, 110, 255);
+    color: rgb(255, 255, 255);
+    -webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+    box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+}
+
+.night_mode {
+    position: fixed;
+    top: 25px;
+    right: 30px;
+    z-index: 10000000;
+    color: #161618;
+}
+
+.night_mode:hover {
+    cursor: pointer;
+}

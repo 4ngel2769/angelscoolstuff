@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: var(--background);
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0px;
+    --normal-shadow: 0px 100px 80px rgba(0, 0, 0, 0.13),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0934511),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0774939),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.065),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0525061),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0365489);
+  --text-shadow: 0px 100px 145px rgba(0, 0, 0, 0.25),
+    0px 41.7776px 60.5775px rgba(0, 0, 0, 0.179714),
+    0px 22.3363px 32.3876px rgba(0, 0, 0, 0.149027),
+    0px 12.5216px 18.1562px rgba(0, 0, 0, 0.125),
+    0px 6.6501px 9.64265px rgba(0, 0, 0, 0.100973),
+    0px 2.76726px 4.01252px rgba(0, 0, 0, 0.0702864);
+}
+
+::-moz-selection {
+    color: rgb(29, 31, 32);
+    background: rgb(228, 228, 228);
+}
+
+::selection {
+    color: rgb(29, 31, 32);
+    background: rgb(228, 228, 228);
+}
+
+body {
+    background: linear-gradient(-45deg, #fa4c86, #ff5f5f, #d42a2a, #f83344);
+    background-size: 500% 500%;
+    animation: gradient 10s ease infinite;
+}
+
+
+.msg {
+    font-size: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    font-weight: light;
+    font-family: 'Concert One', Courier;
+    color: white;
+    text-shadow: var(--normal-shadow);
+    
+}
+
+.msg2 {
+    font-size: 45px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-weight: light;
+    font-family: 'Concert One', Courier;
+    color: white;
+    text-shadow: var(--normal-shadow);
+    
+}
+
+
+.back {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-width: 5px;
+    border-radius: 6px;
+    width: 300px;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: var(--normal-shadow);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+    box-shadow : 0 0 5px #ffff ;
+}
+
+a:hover {
+    color: rgb(69, 57, 179);
+    background: white;
+}
+
+.cursor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+
+.cursor::after,.cursor::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+}
+
+.cursor::before{
+    background-color: rgb(255, 255, 255);
+}
+
+.cursor.click::before{
+    animation: click 1s ease  forwards;
+    background-color: rgb(255, 255, 255);
+}
+
+@keyframes click{
+    0%{
+       opacity: 1;
+       transform:translate(-50%, -50%) scale(1);
+    }
+    100%{
+       opacity: 0;
+       transform: translate(-50%, -50%) scale(7);
+    }
+}
+
+.discord {
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
