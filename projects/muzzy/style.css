@@ -67,7 +67,7 @@ body {
 
 button {
   opacity: .9;
-  color: #ffffff;
+  color: #b47878;
   border: 0;
   font-weight: 600;
   cursor: pointer;
@@ -243,7 +243,7 @@ a:hover, button:hover {
   margin-top: 20px;
   display: grid;
   border-radius: 10px;
-  background: linear-gradient(#4d42e2,#4335fd);
+  background: linear-gradient(#ae00ffbb, #7000ccaf);
   width: 100%;
   border: 2px solid rgba(26, 26, 27, 0.623);
 }
