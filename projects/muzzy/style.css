@@ -58,14 +58,11 @@ html {
 }
 
 body {
-  background: linear-gradient(-45deg, #2C2F33, #2C2F33, #3255f3, rgb(75, 72, 255));
-  color: rgb(17, 2, 2);
-  background-size: 400% 400%;
+  background-image: url('https://images4.alphacoders.com/909/thumb-1920-909912.png');
+  /*background: linear-gradient(-45deg, #2C2F33, #2C2F33, #3255f3, rgb(75, 72, 255));*/
   font-family: 'Roboto', sans-serif;
   text-align: center;
   align-items: center;
-  animation: gradient 10s ease infinite;
-  transition: 0.4s;
 }
 
 button {
@@ -92,6 +89,10 @@ a:hover, button:hover {
   opacity: 1;
 }
 
+.cool-header{
+  padding: 0em 3em 0em 3em;
+}
+
 .navbar {
   list-style-type: none;
   padding: 5px;
@@ -111,24 +112,20 @@ a:hover, button:hover {
   border-radius: 10px;
 }
 
-
 .hero-section {
-  background: linear-gradient(45deg, #f6fbff, #f410ff) ;
-  background-image: url("./img/header-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 16.8em 0 14.8em 0;
-  border-radius: 0 0 50px 50px;
+  background-image: url('https://media.discordapp.net/attachments/747111170543976457/920069911408152596/muzzy_banner2.png');
+  /*background: linear-gradient(45deg, #f6fbff, #ffbb6d, #f410ff);*/
+  background-repeat:no-repeat;
+  background-size:cover, contain;
+  padding: 18em 0 15em 0;
 
 }
 
 .hero-title {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  border-radius: 50%;
   font-size: 50px;
   color: #e6e6e6;
   margin: 15px;
+  text-shadow: var(--text-shadow);
 }
 
 .hero-description {
@@ -196,11 +193,9 @@ a:hover, button:hover {
 
 .statics-section2 {
   box-shadow: var(--text-shadow);
-  background-image: url("./img/header-bg.png");
   background: linear-gradient(-60deg, #1d1752, #121152);
   color: #ffffff;
   padding: 70px;
-  background-image: url("./img/header-bg.png");
 }
 
 .statics-description {
@@ -267,6 +262,14 @@ a:hover, button:hover {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+
+.terms-footer{
+  padding: 1em 0em 1em 0em;
+  color:white;
+}
+
+
 
 @media (min-width: 768px) {
   .container {
