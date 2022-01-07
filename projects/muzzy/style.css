@@ -141,7 +141,7 @@ a:hover, button:hover {
 }
 
 .s-m-section {
-  background: linear-gradient(90deg, #4b55ec, #3d3f4d, #fcb150);
+  background: linear-gradient(90deg, #4b55ec, #b8b9bba1, #fcb150);
   padding: 20px;
 }
 
@@ -159,6 +159,7 @@ a:hover, button:hover {
 .s-m-btn {
   border: 2px solid #03192e;
   color: #03192e;
+  margin-top: 10px;
   padding: 8px 20px;
   background: 0;
 }
