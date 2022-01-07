@@ -116,6 +116,7 @@ a:hover, button:hover {
   background-image: url('https://media.discordapp.net/attachments/747111170543976457/920069911408152596/muzzy_banner2.png');
   /*background: linear-gradient(45deg, #f6fbff, #ffbb6d, #f410ff);*/
   background-repeat:no-repeat;
+  border-radius: 15px;
   background-size:cover, contain;
   padding: 18em 0 15em 0;
 
@@ -168,9 +169,21 @@ a:hover, button:hover {
 }
 
 .time-load-section {
-  background: linear-gradient(-30deg, #abff1071, #15ffeb71);
-  padding: 100px 0;
+  background: linear-gradient(-30deg, #abff1071, #15ffeb71, #e6e6e6ad);
+  margin: 5em 4em 0em 4em;
+  padding: 10px 0;
+  border-radius: 10px;
   animation: gradient 4s ease infinite;
+}
+
+.over-card {
+  display: flex;
+  padding: 6px;
+  border-radius: 10px;
+  background: linear-gradient(rgb(39, 42, 49));
+  color: #e7e7e7;
+  margin: 15px;
+  box-shadow: var(--text-shadow);
 }
 
 .card {
@@ -178,7 +191,7 @@ a:hover, button:hover {
   border-radius: 10px;
   background: rgb(39, 42, 49);
   color: #e7e7e7;
-  margin: 15px;
+  margin: 28px;
   box-shadow: var(--text-shadow);
 }
 
