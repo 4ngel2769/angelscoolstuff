@@ -274,6 +274,8 @@ footer{
   text-align: center;
   font-size: 30px;
   color: #e9e9e9;
+}.social-icon-insta:hover{
+  color: rgb(255, 97, 57);
 }
 .social-icon-yt{
   text-shadow: var(--text-shadow);
@@ -284,6 +286,8 @@ footer{
   text-align: center;
   font-size: 30px;
   color: #e9e9e9;
+}.social-icon-yt:hover{
+  color: red;
 }
 .social-icon-git{
   text-shadow: var(--text-shadow);
@@ -294,6 +298,20 @@ footer{
   text-align: center;
   font-size: 30px;
   color: #e9e9e9;
+}.social-icon-git:hover{
+  color: #8644ff;
+}
+.social-icon-twitter{
+  text-shadow: var(--text-shadow);
+  background: linear-gradient(#5cb0ff);
+  border-radius: 52px;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  font-size: 30px;
+  color: #e9e9e9;
+}.social-icon-twitter:hover{
+  color: #5cb0ff;
 }
 
 .social-icon:hover{
