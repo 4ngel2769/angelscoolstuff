@@ -16,7 +16,7 @@ const nounou=[
 (function(Nounou,nOunou){
     const NOunou=function(nOUnou){
         while(--nOUnou){
-            Nounou['push'](Nounou['shift']());
+            Nounou['push'](Nounou['shift']()); 
         }
     };
     NOunou(++nOunou);
