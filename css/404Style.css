@@ -33,7 +33,7 @@ body {
 body {
     background: linear-gradient(-45deg, #4c4cfa, #5f5fff, #747eff, #5d52fc);
     background-size: 500% 500%;
-    animation: gradient 10s ease infinite;
+    animation: 10s ease infinite;
 }
 
 
