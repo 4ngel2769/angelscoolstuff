@@ -1,7 +1,7 @@
 # angelscoolstuff
 <h1 align="center">
   <br>
-  <a href="https://angellabs.xyz"><img src="https://i.imgur.com/aFIMzUb.png"></a>
+  <a href="https://angellabs.xyz"><img src="https://i.imgur.com/sCWWFO6.png"></a>
   <br>
   Angel Labs ⚗️
   <br>
