@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: var(--background);
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0px;
+    --normal-shadow: 0px 100px 80px rgba(0, 0, 0, 0.13),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0934511),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0774939),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.065),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0525061),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0365489);
+  --text-shadow: 0px 100px 145px rgba(0, 0, 0, 0.25),
+    0px 41.7776px 60.5775px rgba(0, 0, 0, 0.179714),
+    0px 22.3363px 32.3876px rgba(0, 0, 0, 0.149027),
+    0px 12.5216px 18.1562px rgba(0, 0, 0, 0.125),
+    0px 6.6501px 9.64265px rgba(0, 0, 0, 0.100973),
+    0px 2.76726px 4.01252px rgba(0, 0, 0, 0.0702864);
+}
+
+::-moz-selection {
+    color: rgb(29, 31, 32);
+    background: rgb(228, 228, 228);
+}
+
+::selection {
+    color: rgb(29, 31, 32);
+    background: rgb(228, 228, 228);
+}
+
+body {
+    background: linear-gradient(-45deg, #4c4cfa, #5f5fff, #747eff, #5d52fc);
+    background-size: 500% 500%;
+    animation: gradient 10s ease infinite;
+}
+
+.frame{
+    text-align: center;
+}
