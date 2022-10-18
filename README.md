@@ -8,7 +8,7 @@
 </h1>
 
 # ❔ What is this? 
-### This is a website for all your **stuff**! You can link your social profiles, groups, and other websites! You can use this website as a template to make a website suited for your needs. 
+### This is a website for all your stuff! You can link your social profiles, groups, and other websites! You can use this website as a template to make a website suited for your needs. 
 
 #### Star :star: the repo if you appreciate the work put into it!
 
