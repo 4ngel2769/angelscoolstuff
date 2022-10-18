@@ -12,10 +12,10 @@
 
 #### Star :star: the repo if you appreciate the work put into it!
 
-###### Leaving the credits at the bottom of the page or linking this repo would be greatly appreciated :)
+#### Leaving the credits at the bottom of the page or a link to [my repo](https://github.com/4ngel2769/angelscoolstuff) would be greatly appreciated :)
 
 
 ## Credits
 
-* **@BlobbyDev** - *Initial 404 page* - [github](https://github.com/BlobbyDev)
+* ~~**@BlobbyDev** - *Initial 404 page* - [github](https://github.com/BlobbyDev)~~ (404 page has been completely overhauled)
 *  **@4ngel2769** - *Website Design & Everything else* - [github](https://github.com/4ngel2769)
