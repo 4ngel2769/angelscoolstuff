@@ -195,11 +195,6 @@ footer{
   background-color: rgba(255, 255, 255, 0.055);
   backdrop-filter: blur(5px);
   border-radius: 11px;
-  border-style: dashed;
-  border-width: medium;
-  border-bottom-color: #f4f4f4e8;
-  border-left: solid;
-  border-right: solid;
   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.22),
     0px 41.7776px 33.4221px rgba(0, 0, 0, 0.158148),
     0px 22.3363px 17.869px rgba(0, 0, 0, 0.131144),
