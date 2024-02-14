@@ -1,4 +1,5 @@
-# angelscoolstuff
+# This project has now been discontinued, see new website [here](https://github.com/4ngel2769/ac.tech/).
+
 <h1 align="center">
   <br>
   <a href="https://angellabs.xyz"><img src="https://i.imgur.com/sCWWFO6.png"></a>
