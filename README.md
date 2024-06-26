@@ -1,3 +1,6 @@
+> [!WARNING]
+> #### The code for this websites will be archived as I will move to a different codebase for my website.
+ 
 <h1 align="center">
   <br>
   <a href="https://angellabs.xyz"><img src="https://i.imgur.com/sCWWFO6.png"></a>
